@@ -1,7 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 
-# openssl req -x509 -nodes -days 36500 -newkey rsa:2048 -keyout key.pem -out cert.pem  -subj "/CN=sb_testserver.herokuapp.com"
+# openssl req -x509 -nodes -days 36500 -newkey rsa:2048 -keyout key.pem -out cert.pem  -subj "/CN=sb_testserver.onrender.com"
 
 @app.route("/")
 def hello():
